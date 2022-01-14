@@ -1,4 +1,8 @@
 :root {
+  --primary: #ffffff;
+  --secondary: #ffffff;
+  --tertiary: #ffffff;
+  --error: #e42e00;
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
 }
