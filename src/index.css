@@ -86,3 +86,7 @@ li a {
   padding-top: var(--spacing-two);
   padding-bottom: var(--spacing-two);
 }
+
+.navactive {
+  color: var(--secondary);
+}
