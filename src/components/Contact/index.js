@@ -12,7 +12,7 @@ function Contact() {
         console.log(formState)
     }
     return (
-        <section id="contact">
+        <section className='mx-2' id="contact">
             <h2>Contact Me</h2>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>

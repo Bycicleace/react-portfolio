@@ -2,14 +2,14 @@ import React from 'react';
 
 function Nav() {
     return (
-        <header className='flex-row px-1 space-between'>
+        <header className='flex-row flex-wrap px-1 space-between'>
             <h1>
                 <a href="/">
                     EK
                 </a>
             </h1>
             <nav>
-                <ul className='flex-row'>
+                <ul className='flex-row flex-wrap'>
                     <li className='mx-2'>
                         <a href="#about">About</a>
                     </li>

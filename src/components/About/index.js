@@ -4,7 +4,7 @@ function About() {
     return (
         <section id="about">
             <h2>I am a developer. How I became one is a bit of a longer story.</h2>
-            <div className="content mx-2" id="about-content">
+            <div className="flex-row flex-wrap mx-2" id="about-content">
                 <div>
                     <img className="mx-2 my-2" src={require("../../assets/profile-200x200.png")} />
                     <p>My first job was at a grocery store as a stocker. Working there, I found that I had a knack for talking to customers, so I decided to become a cashier. Within six months of becoming a cashier, I became a Customer Service Manager, and ended up doing anything and everything at the checkout lanes. Inside that grocery store, there was a local credit union branch. After getting to know them, they offered me a job at the same branch, which I took. That started my career in the financial industry.</p>

@@ -38,9 +38,29 @@ p {
   text-align: left;
 }
 
+form {
+  width: 40%;
+}
+
+form textarea {
+  width: 100%
+}
+
+form input {
+  width: 50%;
+  margin: 0px 0px 10px 10px;
+}
+
 .flex-row {
   display: flex;
+}
+
+.flex-wrap {
   flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
 }
 
 .flex-end {
@@ -49,11 +69,6 @@ p {
 
 .space-between {
   justify-content: space-between;
-}
-
-.content {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .mx-1 {
@@ -103,4 +118,8 @@ p {
 #about-content img {
   width: 200px;
   float: left;
+}
+
+#contact {
+  text-align: left;
 }
