@@ -51,6 +51,11 @@ p {
   justify-content: space-between;
 }
 
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .mx-1 {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
@@ -93,4 +98,9 @@ p {
 
 .navactive {
   color: var(--secondary);
+}
+
+#about-content img {
+  width: 200px;
+  float: left;
 }
