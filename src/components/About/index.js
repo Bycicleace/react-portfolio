@@ -4,9 +4,9 @@ function About() {
     return (
         <section id="about">
             <h2>I am a developer. How I became one is a bit of a longer story.</h2>
-            <div class="content mx-2" id="about-content">
+            <div className="content mx-2" id="about-content">
                 <div>
-                    <img class="mx-2 my-2" src={require("../../assets/profile-200x200.png")} />
+                    <img className="mx-2 my-2" src={require("../../assets/profile-200x200.png")} />
                     <p>My first job was at a grocery store as a stocker. Working there, I found that I had a knack for talking to customers, so I decided to become a cashier. Within six months of becoming a cashier, I became a Customer Service Manager, and ended up doing anything and everything at the checkout lanes. Inside that grocery store, there was a local credit union branch. After getting to know them, they offered me a job at the same branch, which I took. That started my career in the financial industry.</p>
                     <p>At the credit union, I found I had a desire to work with technology, and that I had a desire to create and innovate. That led me to programming. The ability to create something and use it to help others has always been a strong motivator for me. I went to college and started getting my Bachelor's degree in Computer Science, with a focus on Software Engineering.</p>
                     <p>During that time, I also got married. Then, we moved closer to my wife's place of work. With that, my teller job ended. I attempted to find any IT related job, and struggled to find one that wasn't overnight, as my wife was pregnant with our first child, and working nights was not on the table for me.</p>
