@@ -188,6 +188,7 @@ function SiteList() {
                             alt={`${site.name} site`}
                         />
                     </a>
+                    <p><a href={site.gitHubURL} target='_blank'><strong>GitHub Repository</strong></a></p>
                     <p>{site.description}</p>
                 </div>
             ))}

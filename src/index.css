@@ -2,6 +2,8 @@
   --primary: #ffffff;
   --secondary: orange;
   --tertiary: #ffffff;
+  --link: lightblue;
+  --link-hover: lightskyblue;
   --dark: #000000;
   --light: #fafafa;
   --error: #e42e00;
@@ -145,6 +147,14 @@ nav ul li {
   width: 31%;
 }
 
+#projects div div a {
+  color: var(--link);
+}
+
+#projects div div a:hover {
+  color: var(--link-hover);
+}
+
 #projects div div img:hover {
   border: red 1px solid;
 }
@@ -166,9 +176,9 @@ nav ul li {
 }
 
 #resume-header a {
-  color: lightblue;
+  color: var(--link);
 }
 
 #resume-header a:hover {
-  color: lightskyblue;
+  color: var(--link-hover);
 }
