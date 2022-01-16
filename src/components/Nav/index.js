@@ -1,6 +1,11 @@
 import React from 'react';
 
-function Nav() {
+function Nav(props) {
+    const {
+        currentNavigation,
+        setCurrentNavigation
+     } = props;
+
     return (
         <header className='flex-row flex-wrap px-1 space-between'>
             <h1>
@@ -10,17 +15,17 @@ function Nav() {
             </h1>
             <nav>
                 <ul className='flex-row flex-wrap'>
-                    <li className='mx-2'>
-                        <a href="#about">About</a>
+                    <li className={`mx-2 ${currentNavigation === 'about' && 'navactive'}`}>
+                        <span onClick={() => setCurrentNavigation('about')}>About</span>
                     </li>
-                    <li className='mx-2'>
-                        <a href="#projects">Projects</a>
+                    <li className={`mx-2 ${currentNavigation === 'projects' && 'navactive'}`}>
+                        <span onClick={() => setCurrentNavigation('projects')}>Projects</span>
                     </li>
-                    <li className='mx-2'>
-                        <a href="#contact">Contact</a>
+                    <li className={`mx-2 ${currentNavigation === 'resume' && 'navactive'}`}>
+                        <span onClick={() => setCurrentNavigation('resume')}>Resume</span>
                     </li>
-                    <li className='mx-2'>
-                        <a href="#resume">Resume</a>
+                    <li className={`mx-2 ${currentNavigation === 'contact' && 'navactive'}`}>
+                        <span onClick={() => setCurrentNavigation('contact')}>Contact</span>
                     </li>
                 </ul>
             </nav>

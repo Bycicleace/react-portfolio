@@ -2,13 +2,13 @@ import React from 'react';
 
 function Resume() {
     return (
-        <div id="resume" class="flex-row flex-wrap flex-start">
-            <div id="resume-header" class="mx-2">
+        <div id="resume" className="flex-row flex-wrap flex-start">
+            <div id="resume-header" className="mx-2">
                 <h2>Resume</h2>
                 <a href={require("../../assets/Elliott Resume.pdf")} target="_blank">Download my Resume</a>
             </div>
             <div>
-                <section class="mx-2">
+                <section className="mx-2">
                     <h3>Skills</h3>
                     <ul>
                         <li>HTML, CSS, and JavaScript</li>
@@ -21,13 +21,13 @@ function Resume() {
                         <li>Works well independently and on a team</li>
                     </ul>
                 </section>
-                <section class="mx-2">
+                <section className="mx-2">
                     <h3>Education</h3>
                     <span>B.S. Computer Science, <strong>University of Phoenix</strong>, October 2016</span><br /><br />
                     <span>A.A. General Studies, <strong>Anoka-Ramsey Community College</strong>, September 2010</span><br /><br />
                     <span>High School Diploma, <strong>Cambridge-Isanti High School</strong>, June 2009</span><br /><br />
                 </section>
-                <section class="mx-2">
+                <section className="mx-2">
                     <h3>Experience</h3>
                     <span>Software Developer, <strong>TruStone Financial Credit Union</strong>, December 2017 - Present</span><br /><br />
                     <span>IT Administrator, <strong>Cross Pointe Church</strong>, January 2018 - November 2021</span><br /><br />
