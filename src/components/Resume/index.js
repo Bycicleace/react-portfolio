@@ -5,7 +5,7 @@ function Resume() {
         <div id="resume" className="flex-row flex-wrap flex-start">
             <div id="resume-header" className="mx-2">
                 <h2>Resume</h2>
-                <a href={require("../../assets/Elliott Resume.pdf")} target="_blank">Download my Resume</a>
+                <a href={require("../../assets/Elliott Resume.pdf")} target="_blank" rel="noopener">Download my Resume</a>
             </div>
             <div>
                 <section className="mx-2">

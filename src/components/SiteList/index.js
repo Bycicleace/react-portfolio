@@ -182,13 +182,13 @@ function SiteList() {
             {sortedSites.map((site) => (
                 <div className='px-1 py-1' key={site.name}>
                     <h3>{site.name}</h3>
-                    <a href={site.liveSiteURL} target='_blank'>
+                    <a href={site.liveSiteURL} target='_blank' rel='noopener'>
                         <img
                             src={require(`../../assets/projects/${site.image}`)}
                             alt={`${site.name} site`}
                         />
                     </a>
-                    <p><a href={site.gitHubURL} target='_blank'><strong>GitHub Repository</strong></a></p>
+                    <p><a href={site.gitHubURL} target='_blank' rel='noopener'><strong>GitHub Repository</strong></a></p>
                     <p>{site.description}</p>
                 </div>
             ))}
