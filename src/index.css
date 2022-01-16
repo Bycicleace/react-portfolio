@@ -137,7 +137,11 @@ hr {
 }
 
 #projects div div {
-  width: 23%;
+  width: 31%;
+}
+
+#projects div div img:hover {
+  border: red 1px solid;
 }
 
 #resume {

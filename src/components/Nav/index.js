@@ -5,7 +5,7 @@ function Nav() {
         <header className='flex-row flex-wrap px-1 space-between'>
             <h1>
                 <a href="/">
-                    EK
+                    Elliott Kvamme
                 </a>
             </h1>
             <nav>
