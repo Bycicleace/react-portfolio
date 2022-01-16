@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import Nav from './components/Nav';
+import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -11,7 +11,7 @@ function App() {
   const [currentNavigation, setCurrentNavigation] = useState('about');
   return (
     <div className="App">
-      <Nav
+      <Header
         currentNavigation = {currentNavigation}
         setCurrentNavigation = {setCurrentNavigation}
       />
