@@ -71,6 +71,10 @@ hr {
   flex-wrap: nowrap;
 }
 
+.flex-start {
+  justify-content: flex-start;
+}
+
 .flex-end {
   justify-content: flex-end;
 }
@@ -137,5 +141,13 @@ hr {
 }
 
 #resume {
-  justify-content: space-between;
+  text-align: left;
+}
+
+#resume h2 {
+  width: 100%;
+}
+
+#resume li {
+  list-style: circle;
 }
