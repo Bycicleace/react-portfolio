@@ -2,36 +2,52 @@
 import React, { useState } from 'react';
 
 function SiteList() {
-    // const components = [
-    //     {
-    //         index: 1,
-    //         name: "HTML"
-    //     },
-    //     {
-    //         index: 2,
-    //         name: "CSS"
-    //     },
-    //     {
-    //         index: 3,
-    //         name: "JavaScript"
-    //     },
-    //     {
-    //         index: 4,
-    //         name: "JQuery"
-    //     },
-    //     {
-    //         index: 5,
-    //         name: "Moment.js"
-    //     },
-    //     {
-    //         index: 6,
-    //         name: "Bootstrap"
-    //     },
-    //     {
-    //         index: 7,
-    //         name: "API Calls"
-    //     }
-    // ]
+    const components = [
+        {
+            index: 1,
+            name: "HTML"
+        },
+        {
+            index: 2,
+            name: "CSS"
+        },
+        {
+            index: 3,
+            name: "JavaScript"
+        },
+        {
+            index: 4,
+            name: "JQuery"
+        },
+        {
+            index: 5,
+            name: "Moment.js"
+        },
+        {
+            index: 6,
+            name: "Bootstrap"
+        },
+        {
+            index: 7,
+            name: "API Calls"
+        },
+        {
+            index: 8,
+            name: "JQuery Draggable"
+        },
+        {
+            index: 9,
+            name: "Webpack"
+        },
+        {
+            index: 10,
+            name: "Service Worker"
+        },
+        {
+            index: 11,
+            name: "PWA"
+        }
+    ]
 
     const [sites] = useState([
         {
@@ -83,8 +99,39 @@ function SiteList() {
             componentsUsed: [1, 2, 3, 7],
             bootcamp: true,
             displayIndex: 99
+        },
+        {
+            name: "Taskmaster Pro",
+            gitHubURL: "https://github.com/Bycicleace/taskmaster-pro",
+            liveSiteURL: "https://bycicleace.github.io/taskmaster-pro/",
+            image: "taskmaster_pro.png",
+            description: "Demonstrates the usage of Third Party APIs",
+            componentsUsed: [1, 2, 3, 8],
+            bootcamp: true,
+            displayIndex: 99
+        },
+        {
+            name: "Food Festival",
+            gitHubURL: "https://github.com/Bycicleace/food-festival",
+            liveSiteURL: "https://bycicleace.github.io/food-festival/",
+            image: "food_festival.png",
+            description: "Used Chrome's Lighthouse, Optimized site, and used webpack, service workers, and converted to PWA",
+            componentsUsed: [1, 2, 3, 9, 10, 11],
+            bootcamp: true,
+            displayIndex: 99
         }
+        // },
         // {
+        //     name: "",
+        //     gitHubURL: "",
+        //     liveSiteURL: "",
+        //     image: "",
+        //     description: "",
+        //     componentsUsed: [],
+        //     bootcamp: true,
+        //     displayIndex: 99
+        // }
+        // ,{
         //     name: "",
         //     gitHubURL: "",
         //     liveSiteURL: "",

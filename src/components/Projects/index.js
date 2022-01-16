@@ -5,7 +5,7 @@ import SiteList from '../SiteList';
 function Projects() {
     return (
         <div>
-            <p>This is the projects area.</p>
+            <h2>Projects</h2>
             <SiteList />
         </div>
     )
