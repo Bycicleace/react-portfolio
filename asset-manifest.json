@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.af02d90b.css",
+    "main.js": "/react-portfolio/static/js/main.2ac269c8.js",
+    "static/js/787.8c081f57.chunk.js": "/react-portfolio/static/js/787.8c081f57.chunk.js",
+    "static/media/food_festival.png": "/react-portfolio/static/media/food_festival.54d6fdc4a287c9fbe678.png",
+    "static/media/park_finder.png": "/react-portfolio/static/media/park_finder.cb75a642940953a8d810.png",
+    "static/media/mybook.png": "/react-portfolio/static/media/mybook.ae1158e5920c6c681095.png",
+    "static/media/run_buddy.png": "/react-portfolio/static/media/run_buddy.619f1ad2e32e55118a7a.png",
+    "static/media/Elliott Resume.pdf": "/react-portfolio/static/media/Elliott Resume.ab28a489d51cc84a9d6d.pdf",
+    "static/media/profile-200x200.png": "/react-portfolio/static/media/profile-200x200.d01c8637d47fade0fa8b.png",
+    "static/media/git_it_done.png": "/react-portfolio/static/media/git_it_done.dd4b01345c5348d92c4b.png",
+    "static/media/weather_dashboard.png": "/react-portfolio/static/media/weather_dashboard.a454cccdc48719443114.png",
+    "static/media/taskmaster_pro.png": "/react-portfolio/static/media/taskmaster_pro.d5549800d20f579b3f83.png",
+    "static/media/just_tech_news.png": "/react-portfolio/static/media/just_tech_news.ed6d938187421ae95aae.png",
+    "static/media/taskinator.png": "/react-portfolio/static/media/taskinator.fc634b36083d25565f95.png",
+    "static/media/workday_scheduler.png": "/react-portfolio/static/media/workday_scheduler.51e870ff407915b641ca.png",
+    "static/media/web_api_quiz.png": "/react-portfolio/static/media/web_api_quiz.be4144472c9ca361fbde.png",
+    "static/media/password_generator.png": "/react-portfolio/static/media/password_generator.10ce589919e755b07fab.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.af02d90b.css.map": "/react-portfolio/static/css/main.af02d90b.css.map",
+    "main.2ac269c8.js.map": "/react-portfolio/static/js/main.2ac269c8.js.map",
+    "787.8c081f57.chunk.js.map": "/react-portfolio/static/js/787.8c081f57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af02d90b.css",
+    "static/js/main.2ac269c8.js"
+  ]
+}
