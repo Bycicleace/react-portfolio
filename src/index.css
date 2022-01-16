@@ -21,6 +21,14 @@ body {
   font-family: sans-serif;
 }
 
+#projects div {
+  width: 23%;
+}
+
+img {
+  width: 100%;
+}
+
 a {
   color: var(--tertiary);
   text-decoration: none;
