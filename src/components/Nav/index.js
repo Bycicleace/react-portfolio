@@ -8,11 +8,7 @@ function Nav(props) {
 
     return (
         <header className='flex-row flex-wrap px-1 space-between'>
-            <h1>
-                <a href="/">
-                    Elliott Kvamme
-                </a>
-            </h1>
+            <h1>Elliott Kvamme</h1>
             <nav>
                 <ul className='flex-row flex-wrap'>
                     <li className={`mx-2 ${currentNavigation === 'about' && 'navactive'}`}>

@@ -1,11 +1,10 @@
 :root {
-  --primary: #ffffff;
-  --secondary: orange;
+  --primary: #fefcfb;
+  --secondary: #1282a2;
   --tertiary: #ffffff;
-  --link: lightblue;
-  --link-hover: lightskyblue;
-  --dark: #000000;
-  --light: #fafafa;
+  --link: #1282a2;
+  --link-hover: #fefcfb;
+  --dark: #0a1128;
   --error: #e42e00;
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -19,9 +18,49 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--dark);
-  color: var(--light);
+  color: var(--primary);
   font-family: sans-serif;
   min-height: 100%;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+h1,h2,h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-top: 0;
+  line-height: 1.6;
 }
 
 img {
@@ -64,6 +103,10 @@ hr {
 
 nav ul li {
   cursor: pointer;
+}
+
+.error-text {
+  color: var(--error);
 }
 
 .flex-row {
