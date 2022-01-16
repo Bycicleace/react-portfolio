@@ -4,7 +4,7 @@ import SiteList from '../SiteList';
 
 function Projects() {
     return (
-        <div>
+        <div id="projects">
             <h2>Projects</h2>
             <SiteList />
         </div>

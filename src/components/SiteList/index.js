@@ -178,7 +178,7 @@ function SiteList() {
     });
 
     return (
-        <div id="projects" className='flex-row flex-wrap'>
+        <div className='flex-row flex-wrap'>
             {sortedSites.map((site) => (
                 <div className='px-1 py-1' key={site.name}>
                     <h3>{site.name}</h3>
