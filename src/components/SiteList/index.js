@@ -38,11 +38,11 @@ function SiteList() {
             name: "Run Buddy",
             gitHubURL: "https://github.com/Bycicleace/run-buddy",
             liveSiteURL: "https://bycicleace.github.io/run-buddy/",
-            image: "./assets/projects/run_buddy.png",
+            image: "../../assets/projects/run_buddy.png",
             description: "Demonstrates knowledge and use of HTML and CSS",
             componentsUsed: [1, 2],
             bootcamp: true,
-            displayIndex: -1
+            displayIndex: 99
         },
         {
             name: "Password Generator",
@@ -52,7 +52,7 @@ function SiteList() {
             description: "Demonstrates knowledge and use of basic JavaScript",
             componentsUsed: [1, 2, 3],
             bootcamp: true,
-            displayIndex: -1
+            displayIndex: 2
         },
         {
             name: "Workday Scheduler",
@@ -62,7 +62,7 @@ function SiteList() {
             description: "Demonstrates the usage of 3rd party JavaScript libraries like JQuery and Moment.js",
             componentsUsed: [1, 2, 3, 4, 5, 6],
             bootcamp: true,
-            displayIndex: -1
+            displayIndex: 99
         },
         {
             name: "Git It Done",
@@ -72,7 +72,7 @@ function SiteList() {
             description: "Demonstrates the usage of Server Side API calls",
             componentsUsed: [1, 2, 3],
             bootcamp: true,
-            displayIndex: -1
+            displayIndex: 1
         },
         {
             name: "Weather Dashboard",
@@ -82,7 +82,7 @@ function SiteList() {
             description: "Demonstrates the usage of Server Side API calls",
             componentsUsed: [1, 2, 3, 7],
             bootcamp: true,
-            displayIndex: -1
+            displayIndex: 99
         }
         // {
         //     name: "",
@@ -96,9 +96,23 @@ function SiteList() {
         // }
     ]);
 
+    // Gives the ability to display featured sites
+    const sortedSites = sites.sort((a, b) => {
+        return a.displayIndex - b.displayIndex;
+    })
+
     return (
-        <div>
-            <p>This is the site List</p>
+        <div className='flex-row flex-wrap'>
+            {sortedSites.map((site) => (
+                <a href={site.liveSiteURL} target='_blank'>
+                    <img
+                        src={site.image}
+                        alt={`${site.name} site`}
+                        className='mx-1'
+                        key={site.name}
+                    />
+                </a>
+            ))}
         </div>
     )
 }
