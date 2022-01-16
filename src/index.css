@@ -135,3 +135,7 @@ hr {
 #projects div div {
   width: 23%;
 }
+
+#resume {
+  justify-content: space-between;
+}
