@@ -3,7 +3,10 @@ import React from 'react';
 function Resume() {
     return (
         <div id="resume" class="flex-row flex-wrap flex-start">
-            <h2  class="mx-2">Resume</h2>
+            <div id="resume-header" class="mx-2">
+                <h2>Resume</h2>
+                <a href={require("../../assets/Elliott Resume.pdf")} target="_blank">Download my Resume</a>
+            </div>
             <div>
                 <section class="mx-2">
                     <h3>Skills</h3>

@@ -155,3 +155,15 @@ hr {
 #resume li {
   list-style: circle;
 }
+
+#resume-header {
+  width: 100%;
+}
+
+#resume-header a {
+  color: lightblue;
+}
+
+#resume-header a:hover {
+  color: lightskyblue;
+}
