@@ -46,10 +46,36 @@ function SiteList() {
         {
             index: 11,
             name: "PWA"
+        },
+        {
+            index: 12,
+            name: "MongoDB"
+        },
+        {
+            index: 13,
+            name: "React"
+        },
+        {
+            index: 14,
+            name: "Express.js"
+        },
+        {
+            index: 15,
+            name: "Node.js"
         }
     ]
 
     const [sites] = useState([
+        {
+            name: "Connect-4",
+            gitHubURL: "https://github.com/Bycicleace/connect-four",
+            liveSiteURL: "https://cbc-connect-4.herokuapp.com",
+            image: "connect_four.png",
+            description: "MERN stack demo. Play games of connect four against anyone!",
+            componentsUsed: [1, 2, 3, 12, 13, 14, 15],
+            bootcamp: true,
+            displayIndex: 1
+        },
         {
             name: "Run Buddy",
             gitHubURL: "https://github.com/Bycicleace/run-buddy",
@@ -80,16 +106,16 @@ function SiteList() {
             bootcamp: true,
             displayIndex: 99
         },
-        {
-            name: "Git It Done",
-            gitHubURL: "https://github.com/Bycicleace/git-it-done",
-            liveSiteURL: "https://bycicleace.github.io/git-it-done/",
-            image: "git_it_done.png",
-            description: "Demonstrates the usage of Server Side API calls",
-            componentsUsed: [1, 2, 3],
-            bootcamp: true,
-            displayIndex: 99
-        },
+        // {
+        //     name: "Git It Done",
+        //     gitHubURL: "https://github.com/Bycicleace/git-it-done",
+        //     liveSiteURL: "https://bycicleace.github.io/git-it-done/",
+        //     image: "git_it_done.png",
+        //     description: "Demonstrates the usage of Server Side API calls",
+        //     componentsUsed: [1, 2, 3],
+        //     bootcamp: true,
+        //     displayIndex: 99
+        // },
         // {
         //     name: "Weather Dashboard",
         //     gitHubURL: "https://github.com/Bycicleace/weather-dashboard",
@@ -158,7 +184,7 @@ function SiteList() {
             description: "One of the Group projects using APIs and a different styling framework",
             componentsUsed: [1,2,3],
             bootcamp: true,
-            displayIndex: 2
+            displayIndex: 3
         },
         {
             name: "MyBook",
@@ -168,7 +194,7 @@ function SiteList() {
             description: "A group project for a collaborative book writing site.",
             componentsUsed: [2,3],
             bootcamp: true,
-            displayIndex: 1
+            displayIndex: 2
         }
     ]);
 
